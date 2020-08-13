@@ -1,0 +1,20 @@
+body{
+    background-color: cornflowerblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form{
+    background-color: white;
+    margin: 5rem 35rem;
+    padding: 2rem;
+    outline: none;
+}
+
+input{
+    width: 100%;
+    
+}
+
+nav{
+    background-color: white;
+}
