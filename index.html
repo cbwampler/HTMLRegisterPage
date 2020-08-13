@@ -5,24 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Registration page</title>
     <link rel="stylesheet" type="text/css" href="main.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<div>
-    <nav>
-        <a href ="about.html">About Us</a>
-        <a href="register.html">Register</a>
-    </nav>
+<div class="nav">
+        <button class="button" href = "about.html">About Us</button>
+        <button class="button" href = "register.html">Register</button>
 </div>
 
 <body>
-    <form class=form>
+    <form class="form">
         <h2>Sign Up</h2>
-       <p><input placeholder="Email" type="email" name="email" id="email" required></p>
-       <p><input placeholder="Username" type="text" name="username" id="username" required></p>
-       <p><input type="password" placeholder="Password" name="password" id="password"></p>
-       <p><input type="password" placeholder="Confirm Password" name=password2 id="password2"></p>
-       <p><input type="button" value="Submit"></p>
-   
+       <p><input type="email" placeholder="Email" name="email" required></p>
+       <p><input type="text"placeholder="Username" name="username" required></p>
+       <p><input type="password" placeholder="Password" name="password"></p>
+       <p><input type="password" placeholder="Confirm Password" name="confirmPwd"></p>
+       <p><input type="button" value="Submit" id="submit"></p>
+
+    <div class="icons">
+       <img src="assets/amazon.ico" width="30" height="30" id="amazon">
+       <img src="assets/Facebook.ico" width="30" height="30" id="facebook">
+       <img src="assets/GitHub-Mark-32px.png" width="30" height="30"id="github">
+       <img src="assets/instagram.jpg" id="instagram" width="30" height="30">
+       <img src="assets/Slack.ico" width="30" height="30" id="slack">
+    </div>
+
     </form>
 </body>
 </html>
