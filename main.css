@@ -7,7 +7,7 @@ body{
 
 .form{
     background-color: white;
-    margin: 5em 35em;
+    margin: 5em 45em;
     padding: 1em 3em 3em;
     border-radius: .5em;
 }
@@ -67,5 +67,5 @@ input{
 }
 
 .icons{
-    display: inline-block;
+    text-align:center;
 }
